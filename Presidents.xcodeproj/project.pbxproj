@@ -13,6 +13,8 @@
 		D3CA1DCE1FD894080077A9A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CA1DCC1FD894080077A9A9 /* Main.storyboard */; };
 		D3CA1DD01FD894080077A9A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CA1DCF1FD894080077A9A9 /* Assets.xcassets */; };
 		D3CA1DD31FD894080077A9A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CA1DD11FD894080077A9A9 /* LaunchScreen.storyboard */; };
+		D3E75B891FD9D92D000FE30A /* PresidentList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3E75B881FD9D92C000FE30A /* PresidentList.plist */; };
+		D3E75B8B1FD9E6E2000FE30A /* LanguageListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E75B8A1FD9E6E2000FE30A /* LanguageListController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D3CA1DCF1FD894080077A9A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3CA1DD21FD894080077A9A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3CA1DD41FD894080077A9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3E75B881FD9D92C000FE30A /* PresidentList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PresidentList.plist; path = "Supporting Files/PresidentList.plist"; sourceTree = "<group>"; };
+		D3E75B8A1FD9E6E2000FE30A /* LanguageListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageListController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		D3CA1DC51FD894080077A9A9 /* Presidents */ = {
 			isa = PBXGroup;
 			children = (
-				D3CA1DC61FD894080077A9A9 /* AppDelegate.swift */,
 				D3CA1DC81FD894080077A9A9 /* MasterViewController.swift */,
 				D3CA1DCA1FD894080077A9A9 /* DetailViewController.swift */,
+				D3E75B8A1FD9E6E2000FE30A /* LanguageListController.swift */,
 				D3CA1DCC1FD894080077A9A9 /* Main.storyboard */,
-				D3CA1DCF1FD894080077A9A9 /* Assets.xcassets */,
-				D3CA1DD11FD894080077A9A9 /* LaunchScreen.storyboard */,
 				D3CA1DD41FD894080077A9A9 /* Info.plist */,
+				D3E75B881FD9D92C000FE30A /* PresidentList.plist */,
+				D3CA1DDA1FD897180077A9A9 /* Supporting Files */,
 			);
 			path = Presidents;
+			sourceTree = "<group>";
+		};
+		D3CA1DDA1FD897180077A9A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3CA1DC61FD894080077A9A9 /* AppDelegate.swift */,
+				D3CA1DCF1FD894080077A9A9 /* Assets.xcassets */,
+				D3CA1DD11FD894080077A9A9 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +143,7 @@
 				D3CA1DD31FD894080077A9A9 /* LaunchScreen.storyboard in Resources */,
 				D3CA1DD01FD894080077A9A9 /* Assets.xcassets in Resources */,
 				D3CA1DCE1FD894080077A9A9 /* Main.storyboard in Resources */,
+				D3E75B891FD9D92D000FE30A /* PresidentList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3CA1DCB1FD894080077A9A9 /* DetailViewController.swift in Sources */,
+				D3E75B8B1FD9E6E2000FE30A /* LanguageListController.swift in Sources */,
 				D3CA1DC91FD894080077A9A9 /* MasterViewController.swift in Sources */,
 				D3CA1DC71FD894080077A9A9 /* AppDelegate.swift in Sources */,
 			);
